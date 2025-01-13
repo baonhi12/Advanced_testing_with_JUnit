@@ -2,6 +2,9 @@ package com.exercise2;
 
 public class Algorithms {
     public static void quickSort(int[] arr, int low, int high) {
+        if (arr == null) {
+            throw new NullPointerException("Input array is null");
+        }
         if (low < high) {
             int pi = partition(arr, low, high);
             quickSort(arr, low, pi - 1);
