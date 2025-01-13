@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="13" failures="0" name="AlgorithmsTest" time="0.3" errors="0" skipped="0">
+<testsuite tests="13" failures="0" name="AlgorithmsTest" time="0.293" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="23.0.1+11-39"/>
@@ -46,7 +46,7 @@
     <property name="java.class.path" value="C:\Users\Welcome\Downloads\apache-maven-3.8.8-bin\apache-maven-3.8.8\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="23"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test jacoco:report"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -63,17 +63,17 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortMaxElementFirst" time="0.024"/>
-  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortMinElementLast" time="0"/>
+  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortMinElementLast" time="0.043"/>
   <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortDescendingArray" time="0"/>
+  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortMaxElementFirst" time="0"/>
   <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortMixedDuplicatesAndNegatives" time="0"/>
-  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortLargeArray" time="0.265"/>
-  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortSingleElement" time="0"/>
-  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortTwoElements" time="0"/>
-  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortNullArray" time="0.009"/>
-  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortEmptyArray" time="0"/>
   <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortAlreadySorted" time="0"/>
-  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testAlgorithmsConstructor" time="0.002"/>
-  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortUnsortedArray" time="0"/>
   <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortSameElements" time="0"/>
+  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortTwoElements" time="0"/>
+  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortLargeArray" time="0.229"/>
+  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortEmptyArray" time="0"/>
+  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortNullArray" time="0.018"/>
+  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testAlgorithmsConstructor" time="0.003"/>
+  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortSingleElement" time="0"/>
+  <testcase classname="AlgorithmsTest" name="AlgorithmsTest.testQuickSortUnsortedArray" time="0"/>
 </testsuite>
